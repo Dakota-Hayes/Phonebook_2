@@ -3,7 +3,6 @@ import { Link } from "react-router-dom"
 import Button from "./Button"
 import { signInWithPopup, signOut } from "firebase/auth"
 import {auth, Providers} from '../config/firebase'
-import { Provider } from "react-redux"
 
 function Navbar() {
   const [isVisible, setIsVisible] = useState(false)
